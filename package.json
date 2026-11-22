@@ -1,0 +1,27 @@
+{
+  "name": "cap-plastic-now",
+  "version": "1.0.0",
+  "description": "Cap Plastic Now - Campaign website markup powered by HTML5, Tailwind CSS, and GSAP animations.",
+  "scripts": {
+    "watch:css": "npx @tailwindcss/cli -i ./assets/src/input.css -o ./assets/css/output.css --watch",
+    "build:css": "npx @tailwindcss/cli -i ./assets/src/input.css -o ./assets/css/output.css --minify",
+    "start": "npx serve .",
+    "dev": "npx serve ."
+  },
+  "keywords": [
+    "cap-plastic-now",
+    "gsap",
+    "tailwindcss",
+    "environment",
+    "un-treaty"
+  ],
+  "author": "Cap Plastic Now Coalition",
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.5",
+    "tailwindcss": "^4.3.5"
+  },
+  "devDependencies": {
+    "wawoff2": "^2.0.1"
+  }
+}

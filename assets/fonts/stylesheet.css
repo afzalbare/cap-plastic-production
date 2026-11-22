@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('NeurialGrotesk-Bold.eot');
+    src: url('NeurialGrotesk-Bold.eot?#iefix') format('embedded-opentype'),
+        url('NeurialGrotesk-Bold.woff2') format('woff2'),
+        url('NeurialGrotesk-Bold.woff') format('woff'),
+        url('NeurialGrotesk-Bold.ttf') format('truetype'),
+        url('NeurialGrotesk-Bold.svg#NeurialGrotesk-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('NeurialGrotesk-BoldItalic.eot');
+    src: url('NeurialGrotesk-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('NeurialGrotesk-BoldItalic.woff2') format('woff2'),
+        url('NeurialGrotesk-BoldItalic.woff') format('woff'),
+        url('NeurialGrotesk-BoldItalic.ttf') format('truetype'),
+        url('NeurialGrotesk-BoldItalic.svg#NeurialGrotesk-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('NeurialGrotesk-Extrabold.eot');
+    src: url('NeurialGrotesk-Extrabold.eot?#iefix') format('embedded-opentype'),
+        url('NeurialGrotesk-Extrabold.woff2') format('woff2'),
+        url('NeurialGrotesk-Extrabold.woff') format('woff'),
+        url('NeurialGrotesk-Extrabold.ttf') format('truetype'),
+        url('NeurialGrotesk-Extrabold.svg#NeurialGrotesk-Extrabold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neurial Grotesk Exbold';
+    src: url('NeurialGrotesk-ExtraboldItalic.eot');
+    src: url('NeurialGrotesk-ExtraboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('NeurialGrotesk-ExtraboldItalic.woff2') format('woff2'),
+        url('NeurialGrotesk-ExtraboldItalic.woff') format('woff'),
+        url('NeurialGrotesk-ExtraboldItalic.ttf') format('truetype'),
+        url('NeurialGrotesk-ExtraboldItalic.svg#NeurialGrotesk-ExtraboldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('NeurialGrotesk-RegularItalic.eot');
+    src: url('NeurialGrotesk-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('NeurialGrotesk-RegularItalic.woff2') format('woff2'),
+        url('NeurialGrotesk-RegularItalic.woff') format('woff'),
+        url('NeurialGrotesk-RegularItalic.ttf') format('truetype'),
+        url('NeurialGrotesk-RegularItalic.svg#NeurialGrotesk-RegularItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('NeurialGrotesk-Light.eot');
+    src: url('NeurialGrotesk-Light.eot?#iefix') format('embedded-opentype'),
+        url('NeurialGrotesk-Light.woff2') format('woff2'),
+        url('NeurialGrotesk-Light.woff') format('woff'),
+        url('NeurialGrotesk-Light.ttf') format('truetype'),
+        url('NeurialGrotesk-Light.svg#NeurialGrotesk-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('NeurialGrotesk-LightItalic.eot');
+    src: url('NeurialGrotesk-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('NeurialGrotesk-LightItalic.woff2') format('woff2'),
+        url('NeurialGrotesk-LightItalic.woff') format('woff'),
+        url('NeurialGrotesk-LightItalic.ttf') format('truetype'),
+        url('NeurialGrotesk-LightItalic.svg#NeurialGrotesk-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('NeurialGrotesk-Medium.eot');
+    src: url('NeurialGrotesk-Medium.eot?#iefix') format('embedded-opentype'),
+        url('NeurialGrotesk-Medium.woff2') format('woff2'),
+        url('NeurialGrotesk-Medium.woff') format('woff'),
+        url('NeurialGrotesk-Medium.ttf') format('truetype'),
+        url('NeurialGrotesk-Medium.svg#NeurialGrotesk-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('NeurialGrotesk-MediumItalic.eot');
+    src: url('NeurialGrotesk-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('NeurialGrotesk-MediumItalic.woff2') format('woff2'),
+        url('NeurialGrotesk-MediumItalic.woff') format('woff'),
+        url('NeurialGrotesk-MediumItalic.ttf') format('truetype'),
+        url('NeurialGrotesk-MediumItalic.svg#NeurialGrotesk-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Neurial Grotesk';
+    src: url('NeurialGrotesk-Regular.eot');
+    src: url('NeurialGrotesk-Regular.eot?#iefix') format('embedded-opentype'),
+        url('NeurialGrotesk-Regular.woff2') format('woff2'),
+        url('NeurialGrotesk-Regular.woff') format('woff'),
+        url('NeurialGrotesk-Regular.ttf') format('truetype'),
+        url('NeurialGrotesk-Regular.svg#NeurialGrotesk-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

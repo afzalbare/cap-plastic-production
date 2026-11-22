@@ -1,0 +1,151 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   Neurial Grotesk Custom Web Fonts (Transfonter Kit)
+   ========================================================================== */
+
+/* Light - 300 Normal */
+@font-face {
+  font-family: 'Neurial Grotesk';
+  src: url('../fonts/NeurialGrotesk-Light.woff2') format('woff2'),
+    url('../fonts/NeurialGrotesk-Light.woff') format('woff'),
+    url('../fonts/NeurialGrotesk-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Light - 300 Italic */
+@font-face {
+  font-family: 'Neurial Grotesk';
+  src: url('../fonts/NeurialGrotesk-LightItalic.woff2') format('woff2'),
+    url('../fonts/NeurialGrotesk-LightItalic.woff') format('woff'),
+    url('../fonts/NeurialGrotesk-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Regular - 400 Normal */
+@font-face {
+  font-family: 'Neurial Grotesk';
+  src: url('../fonts/NeurialGrotesk-Regular.woff2') format('woff2'),
+    url('../fonts/NeurialGrotesk-Regular.woff') format('woff'),
+    url('../fonts/NeurialGrotesk-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Regular - 400 Italic */
+@font-face {
+  font-family: 'Neurial Grotesk';
+  src: url('../fonts/NeurialGrotesk-RegularItalic.woff2') format('woff2'),
+    url('../fonts/NeurialGrotesk-RegularItalic.woff') format('woff'),
+    url('../fonts/NeurialGrotesk-RegularItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Medium - 500 Normal */
+@font-face {
+  font-family: 'Neurial Grotesk';
+  src: url('../fonts/NeurialGrotesk-Medium.woff2') format('woff2'),
+    url('../fonts/NeurialGrotesk-Medium.woff') format('woff'),
+    url('../fonts/NeurialGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Medium - 500 Italic */
+@font-face {
+  font-family: 'Neurial Grotesk';
+  src: url('../fonts/NeurialGrotesk-MediumItalic.woff2') format('woff2'),
+    url('../fonts/NeurialGrotesk-MediumItalic.woff') format('woff'),
+    url('../fonts/NeurialGrotesk-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Bold - 700 Normal */
+@font-face {
+  font-family: 'Neurial Grotesk';
+  src: url('../fonts/NeurialGrotesk-Bold.woff2') format('woff2'),
+    url('../fonts/NeurialGrotesk-Bold.woff') format('woff'),
+    url('../fonts/NeurialGrotesk-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Bold - 700 Italic */
+@font-face {
+  font-family: 'Neurial Grotesk';
+  src: url('../fonts/NeurialGrotesk-BoldItalic.woff2') format('woff2'),
+    url('../fonts/NeurialGrotesk-BoldItalic.woff') format('woff'),
+    url('../fonts/NeurialGrotesk-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Extrabold - 800 Normal */
+@font-face {
+  font-family: 'Neurial Grotesk';
+  src: url('../fonts/NeurialGrotesk-Extrabold.woff2') format('woff2'),
+    url('../fonts/NeurialGrotesk-Extrabold.woff') format('woff'),
+    url('../fonts/NeurialGrotesk-Extrabold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Extrabold - 800 Italic */
+@font-face {
+  font-family: 'Neurial Grotesk';
+  src: url('../fonts/NeurialGrotesk-ExtraboldItalic.woff2') format('woff2'),
+    url('../fonts/NeurialGrotesk-ExtraboldItalic.woff') format('woff'),
+    url('../fonts/NeurialGrotesk-ExtraboldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ==========================================================================
+   Tailwind v4 Theme - CapPlasticProduction.org Exact Palette & Fonts
+   ========================================================================== */
+@theme {
+  --font-sans: 'Neurial Grotesk', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-heading: 'Neurial Grotesk', sans-serif;
+  --font-neurial: 'Neurial Grotesk', sans-serif;
+
+  /* Official Brand Colors from capplasticproduction.org */
+  --color-cp-black: #000000;
+  --color-cp-white: #ffffff;
+  --color-cp-dark: #272727;
+  --color-cp-gray: #535353;
+  --color-cp-slate: #94a2a5;
+  --color-cp-border: #c2cccf;
+  --color-cp-ice: #e8eff1;
+  --color-cp-blue: #d3dee0;
+  --color-cp-yellow: #ffff00;
+  --color-cp-red: #ff0000;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Neurial Grotesk', sans-serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
